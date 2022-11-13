@@ -1,0 +1,128 @@
+.home {
+    margin: 0;
+    font-family: system-ui;
+    background-color: #424242;
+}
+
+.page {
+    margin: 1.5rem;
+    font-family: system-ui;
+    background-color: #424242;
+}
+
+.hero {
+    background-color: rgb(95, 10, 10);
+    background-image: url(../images/mt-assiniboine-provincial-park-at-sunrise-royalty-free-image-1623253564.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 837px;
+    color: rgb(0, 0, 0);  
+    /*image file paths*/ 
+    /*Starting with “/” returns to the root directory and starts there*/ 
+    /*Starting with “../” moves one directory backwards and starts there*/ 
+    /*Starting with “../../” moves two directories backwards and starts there (and so on…)*/
+}
+
+.container {
+    max-width: 1000px;
+    padding-top: 50px;
+    padding-left: 50px;
+}
+.gridItem{
+    background-color: rgb(43, 43, 43);
+}
+
+.gridColSpan{
+    grid-column: span 2;
+}
+
+.gridRowSpan{
+    grid-row: span 2;
+}
+
+.grid {
+  display: grid;
+  gap: 1.5rem;
+  grid-template-columns: repeat(3, 1fr);
+  color: white;
+  height: 875px;
+}
+
+/* home */
+nav {
+    width: 100%;
+    height: 100px;
+    background-color: rgb(0, 0, 0);
+}
+
+nav p {
+    font-family: arial;
+    color: #fff;
+    font-size: 50px;
+    line-height: 0px;
+    float: left;
+    padding: 0px 20px;
+}
+
+nav ul {
+    float: left;
+}
+
+nav ul li {
+    float: left;
+    list-style: none;
+    position: relative;
+}
+
+nav ul li a {
+    display: block;
+    font-family: arial;
+    color: #fff;
+    font-size: 20px;
+    line-height: 65px;
+    padding: 0px 20px;
+    text-decoration: none;
+}
+
+nav ul li ul {
+    display: none;
+    position: absolute;
+    background-color: black;
+    padding: 10px;
+    border-radius: 0px 0px 10px 10px;
+}
+
+nav ul li:hover ul {
+    display: block;
+}
+
+nav ul li ul li {
+    width: 138px;
+    border-radius: 4px;
+}
+
+nav ul li ul li a{
+    padding: 0px 20px;
+}
+nav ul li ul li a:hover {
+    background-color: #1b1818;
+    width: 98px;
+    
+}
+
+nav li div a {
+    display: block;
+    font-family: arial;
+    color: #fff;
+    font-size: 20px;
+    line-height: 65px;
+    padding: 0px 20px;
+    text-decoration: none;
+}
+
+/* grid */
+div a{
+    font-size: 30px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
