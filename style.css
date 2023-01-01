@@ -100,7 +100,7 @@ nav ul li:hover ul {
 
 nav ul li ul li a:hover {
     background-color: #1b1818;  
-    column-width:180px;
+    column-width:200px;
 }
 
 /* grid */
